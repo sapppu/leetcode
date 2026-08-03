@@ -16,7 +16,6 @@ public:
         ListNode* tail = &dummy;
         int carry = 0;
 
-        // Phase 1: both lists — reuse l1's nodes
         while (l1 && l2) {
             int sum = l1->val + l2->val + carry;
             l1->val = sum % 10;
@@ -27,7 +26,6 @@ public:
             l2 = l2->next;
         }
 
-        // Phase 2: propagate carry into remaining list
         ListNode* rest = l1 ? l1 : l2;
         while (rest && carry) {
             int sum = rest->val + carry;
@@ -38,7 +36,6 @@ public:
             rest = rest->next;
         }
 
-        // Attach untouched tail or final carry node
         if (rest)       tail->next = rest;
         else if (carry) tail->next = new ListNode(1); // carry ≤ 1 always
 
