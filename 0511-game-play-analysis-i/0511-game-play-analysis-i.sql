@@ -1,2 +1,2 @@
 # Write your MySQL query statement below
-select distinct player_id, min(event_date) over (partition by player_id) as first_login from activity;
+select a.player_id,a.event_date first_login from activity a where not exists(select 1 from activity b where b.player_id=a.player_id and b.event_date<a.event_date);
