@@ -111,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/sapppu/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+## Database
+|  |
+| ------- |
+| [0511-game-play-analysis-i](https://github.com/sapppu/leetcode/tree/master/0511-game-play-analysis-i) |
 <!---LeetCode Topics End-->
