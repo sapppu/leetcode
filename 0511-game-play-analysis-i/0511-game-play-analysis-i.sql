@@ -1,2 +1,6 @@
 # Write your MySQL query statement below
-select a.player_id,a.event_date first_login from activity a where not exists(select 1 from activity b where b.player_id=a.player_id and b.event_date<a.event_date);
+SELECT 
+    player_id,
+    MIN(event_date) AS first_login
+FROM Activity
+GROUP BY player_id;
