@@ -1,6 +1,2 @@
 # Write your MySQL query statement below
-SELECT 
-    player_id,
-    MIN(event_date) AS first_login
-FROM Activity
-GROUP BY player_id;
+select distinct player_id, min(event_date) over (partition by player_id) as first_login from activity;
