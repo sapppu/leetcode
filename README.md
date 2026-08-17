@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/sapppu/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sapppu/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/sapppu/leetcode/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/sapppu/leetcode/tree/master/0036-valid-sudoku) |
 | [0088-merge-sorted-array](https://github.com/sapppu/leetcode/tree/master/0088-merge-sorted-array) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/sapppu/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Binary Search
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sapppu/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/sapppu/leetcode/tree/master/0036-valid-sudoku) |
 ## String
 |  |
 | ------- |
@@ -115,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0511-game-play-analysis-i](https://github.com/sapppu/leetcode/tree/master/0511-game-play-analysis-i) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/sapppu/leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
