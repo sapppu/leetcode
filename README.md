@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sapppu/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sapppu/leetcode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sapppu/leetcode/tree/master/0036-valid-sudoku) |
+| [0039-combination-sum](https://github.com/sapppu/leetcode/tree/master/0039-combination-sum) |
 | [0088-merge-sorted-array](https://github.com/sapppu/leetcode/tree/master/0088-merge-sorted-array) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/sapppu/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Binary Search
@@ -129,4 +130,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sapppu/leetcode/tree/master/0036-valid-sudoku) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/sapppu/leetcode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
