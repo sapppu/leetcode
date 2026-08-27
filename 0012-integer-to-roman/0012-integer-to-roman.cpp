@@ -1,27 +1,17 @@
 class Solution {
 public:
     string intToRoman(int num) {
-        vector<int> values = {
-            1000, 900, 500, 400,
-            100, 90, 50, 40,
-            10, 9, 5, 4, 1
-        };
+        static const string thousands[] = {"", "M", "MM", "MMM"};
+        static const string hundreds[]  = {"", "C", "CC", "CCC", "CD",
+                                           "D", "DC", "DCC", "DCCC", "CM"};
+        static const string tens[]      = {"", "X", "XX", "XXX", "XL",
+                                           "L", "LX", "LXX", "LXXX", "XC"};
+        static const string ones[]      = {"", "I", "II", "III", "IV",
+                                           "V", "VI", "VII", "VIII", "IX"};
 
-        vector<string> symbols = {
-            "M", "CM", "D", "CD",
-            "C", "XC", "L", "XL",
-            "X", "IX", "V", "IV", "I"
-        };
-
-        string ans = "";
-
-        for (int i = 0; i < values.size(); i++) {
-            while (num >= values[i]) {
-                ans += symbols[i];
-                num -= values[i];
-            }
-        }
-
-        return ans;
+        return thousands[num / 1000] +
+               hundreds[(num / 100) % 10] +
+               tens[(num / 10) % 10] +
+               ones[num % 10];
     }
 };
