@@ -1,17 +1,26 @@
 class Solution {
 public:
     string intToRoman(int num) {
-        static const string thousands[] = {"", "M", "MM", "MMM"};
-        static const string hundreds[]  = {"", "C", "CC", "CCC", "CD",
-                                           "D", "DC", "DCC", "DCCC", "CM"};
-        static const string tens[]      = {"", "X", "XX", "XXX", "XL",
-                                           "L", "LX", "LXX", "LXXX", "XC"};
-        static const string ones[]      = {"", "I", "II", "III", "IV",
-                                           "V", "VI", "VII", "VIII", "IX"};
+        static constexpr int val[] = {
+            1000, 900, 500, 400, 100, 90, 50, 40,
+            10, 9, 5, 4, 1
+        };
 
-        return thousands[num / 1000] +
-               hundreds[(num / 100) % 10] +
-               tens[(num / 10) % 10] +
-               ones[num % 10];
+        static constexpr const char* roman[] = {
+            "M", "CM", "D", "CD", "C", "XC", "L", "XL",
+            "X", "IX", "V", "IV", "I"
+        };
+
+        string ans;
+        ans.reserve(15);
+
+        for (int i = 0; i < 13; ++i) {
+            while (num >= val[i]) {
+                ans += roman[i];
+                num -= val[i];
+            }
+        }
+
+        return ans;
     }
 };
