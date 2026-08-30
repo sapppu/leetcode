@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/sapppu/leetcode/tree/master/0039-combination-sum) |
 | [0088-merge-sorted-array](https://github.com/sapppu/leetcode/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sapppu/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/sapppu/leetcode/tree/master/0118-pascals-triangle) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/sapppu/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Binary Search
 |  |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/sapppu/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/sapppu/leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/sapppu/leetcode/tree/master/0070-climbing-stairs) |
+| [0118-pascals-triangle](https://github.com/sapppu/leetcode/tree/master/0118-pascals-triangle) |
 ## Stack
 |  |
 | ------- |
